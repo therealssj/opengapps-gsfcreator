@@ -9,7 +9,7 @@ setup(
       packages=find_packages(),
       entry_points={
           'console_scripts': [
-              'gsfcreator = gsfcreator:cli',
+              'gsfcreator = gsfcreator.cli:cli',
           ]
       },
       url='https://github.com/therealssj/opengapps-gsfcreator',
