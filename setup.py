@@ -17,6 +17,8 @@ setup(
       license='MIT',
       classifiers=[],
       install_requires=[
-            'click'
+            'click',
+            'pycryptodome',
+            'requests'
       ]
 )
